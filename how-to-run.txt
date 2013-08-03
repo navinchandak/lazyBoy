@@ -1,0 +1,10 @@
+On Linux (Ubuntu)
+The chess engine developed by us uses a graphical interface called xboard which is an open-souce graphical interface for chess. If you don't have xboard on your machine, use the following command on the terminal to install chess
+> sudo apt-get install xboard
+or install xboard from Synaptic Packet Manager.
+Note that you can also use WinBoard in Windows to play using our chess engine. However we have not tested the program for Windows. The instructions that follow are only for Ubuntu.
+Go to the terminal and type the following command
+> xboard -fcp "./lazyboy"
+Here lazyboy refers to the executable file that has been created from racket code by going to Racket menu -> Create Executable -> Stand-alone Executable -> Create. So if you have the code and not the executable file then use the above mentioned way to create your own executable with the name you want. You can actually give it your own name and tell everybody that you made this chess engine. Just remember to replace the "./lazyboy" by your own name.
+Once the game starts, just start playing. You also have the option of choosing any colour, saving games, loading games, retracting moves, editing the position of the board to start playing from some position you like. Doing all these things is very easy, however if you are unable to do these things take a look at the xboard manual @ http://www.gnu.org/software/xboard/manual/ .
+
